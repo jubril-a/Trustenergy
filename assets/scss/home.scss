@@ -2,3 +2,14 @@
 @import 'variables';
 @import 'utils';
 @import 'navigation';
+@import 'hero';
+@import 'welcome';
+@import 'history';
+
+section {
+    padding: 3rem 1rem;
+
+    @media (min-width: 960px) {
+        padding: 8rem 6rem;
+    }
+}
