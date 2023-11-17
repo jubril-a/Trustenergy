@@ -36,3 +36,32 @@
         left: 0;
     }
 }
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary-1 {
+    color: $primary-color-1;
+}
+
+.text-primary-2 {
+    color: $primary-color-2;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.mb-100 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-200 {
+    margin-bottom: 1rem;
+}
+
+.mbk-100 {
+    margin-block: 1rem;
+}
