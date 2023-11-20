@@ -250,20 +250,6 @@ h1 {
   }
 }
 
-.services-wrapper {
-  background: transparent;
-}
-.services-wrapper::after {
-  content: "";
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(to right, rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0.8)), url(/assets/images/bg-overlay.jpg) no-repeat center center;
-  background-size: cover;
-  position: fixed;
-  inset: 0;
-  z-index: -1000;
-}
-
 .services {
   display: grid;
   justify-items: center;
@@ -272,52 +258,41 @@ h1 {
 .services .body-text {
   max-width: 40rem;
 }
-.services .button {
-  background-color: transparent;
-  border: 1px solid #fff;
-}
-.services .button:hover {
-  background-color: rgb(255, 255, 0);
-  border: 1px solid transparent;
-  color: black;
-}
 
 .service-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
+  gap: 2rem 1.5rem;
+}
+.service-container > * {
+  flex: 0 0 min(380px, 100vw);
 }
 
 .service {
-  background-color: #fff;
-  flex: 0 0 min(13rem, 100%);
-  aspect-ratio: 1/1.5;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  padding-bottom: 2rem;
-  border-radius: 0.5rem;
+  background-color: rgba(239, 241, 243, 0.7);
+  border-radius: 1rem;
 }
-.service .img-container {
-  flex: 1 0 auto;
-}
-.service img {
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 0.5rem 0.5rem 0 0;
+.service .service__content {
+  padding: 1rem 1.5rem;
 }
 .service .service__text {
   font-weight: 600;
-  font-size: 17px;
-  padding-inline: 0.5rem;
-  line-height: 1.2;
-  height: 41px;
+  font-size: 18px;
+}
+.service .service__description {
+  margin-block: 0.5rem;
+}
+.service img {
+  border-radius: 1rem 1rem 0 0;
+}
+.service a {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 .team-wrapper {
-  background-color: #fff;
+  background-color: rgba(239, 241, 243, 0.7);
 }
 
 .team {
@@ -333,20 +308,114 @@ h1 {
 }
 .team .position {
   font-size: 18px;
+  line-height: 1;
+}
+.team .members {
+  display: grid;
+  gap: 2rem;
+}
+.team .members h3 {
+  line-height: 1.4;
 }
 @media (min-width: 1024px) {
   .team {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.5fr;
     align-items: center;
   }
   .team .h2 {
     margin-bottom: 1rem;
   }
   .team .members {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
   }
+}
+
+.form h2 {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 1024px) {
+  .form {
+    display: flex;
+  }
+  .form .contact-image {
+    flex: 1 1 auto;
+  }
+  .form .contact-form {
+    flex: 0 0 auto;
+  }
+}
+.form .contact-form {
+  padding-inline: 4rem;
+}
+.form .contact-image {
+  background-image: url(../images/engineer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+.form label {
+  display: grid;
+  gap: 0.5rem;
+}
+.form input {
+  width: min(360px, 100vw);
+  height: 3rem;
+  display: block;
+  font-size: 1.2rem;
+}
+.form [type=submit] {
+  border: 0;
+}
+.form textarea {
+  margin-top: 1rem;
+  width: min(360px, 100vw);
+}
+
+footer {
+  background-color: rgb(27, 26, 26);
+  color: #FFF;
+  padding-block: 5rem 0.5rem;
+}
+footer a {
+  color: #FFF;
+}
+footer nav {
+  display: grid;
+}
+footer .top-foot {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+footer .main-info {
+  display: grid;
+  gap: 1rem;
+}
+footer .h3 {
+  display: block;
+  font-weight: 600;
+  color: rgb(255, 0, 0);
+}
+footer .h3-l {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 0, 0);
+}
+footer .button {
+  background-color: rgb(255, 255, 0);
+  color: #000;
+  border: 1px solid transparent;
+  margin-top: 1rem;
+}
+footer .button:hover {
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 0);
+  color: #FFF;
 }
 
 section {
@@ -354,13 +423,14 @@ section {
 }
 @media (min-width: 960px) {
   section {
-    padding: 8rem 6rem;
+    padding-top: 6rem;
   }
 }
 
 h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  line-height: 1;
 }
 
 h3 {

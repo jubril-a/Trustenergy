@@ -1,5 +1,5 @@
 .team-wrapper {
-    background-color: #fff;
+    background-color: $accent-color-light;
 }
 
 .team {
@@ -17,10 +17,20 @@
 
     .position {
         font-size: 18px;
+        line-height: 1;
+    }
+
+    .members {
+        display: grid;
+        gap: 2rem;
+
+        h3 {
+            line-height: 1.4;
+        }
     }
 
     @media (min-width: 1024px) {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1.5fr;
         align-items: center;
 
         .h2 {
@@ -28,9 +38,7 @@
         }
 
         .members {
-            display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 2rem;
         }
     }
 }

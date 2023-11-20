@@ -1,0 +1,55 @@
+.form {
+
+    h2 {
+        margin-bottom: .5rem;
+    }
+    
+    @media (min-width: 1024px) {
+        display: flex;
+
+        .contact-image {
+            flex: 1 1 auto;
+        }
+
+        .contact-form {
+            flex: 0 0 auto;
+        }
+    }
+
+    .contact-form {
+        padding-inline: 4rem;
+    }
+
+    .contact-image {
+        background-image: url(../images/engineer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    form {
+        display: grid;
+        gap: 1rem;
+        margin-top: 1.2rem;
+    }
+
+    label {
+       display: grid;
+       gap: .5rem;
+    }
+
+    input {
+        width: min(360px, 100vw);
+        height: 3rem;
+        display: block;
+        font-size: 1.2rem;
+    }
+
+    [type="submit"] {
+       border: 0;
+    }
+
+    textarea {
+        margin-top: 1rem;
+        width: min(360px, 100vw);
+    }
+}
