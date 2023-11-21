@@ -1,7 +1,7 @@
 footer {
     background-color: $accent-color-dark;
     color: #FFF;
-    padding-block: 5rem .5rem;
+    padding: 5rem 2rem .5rem;
 
     a {
         color: #FFF;
@@ -15,7 +15,9 @@ footer {
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
+        gap: 3rem;
         margin-bottom: 4rem;
+        flex-wrap: wrap;
     }
 
     .main-info {

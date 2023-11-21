@@ -2,6 +2,7 @@
     display: grid;
     justify-items: center;
     gap: 3rem;
+    grid-auto-columns: fit-content;
 
     .body-text {
         max-width: 40rem;
@@ -13,8 +14,12 @@
     flex-wrap: wrap;
     gap: 2rem 1.5rem;
 
+    @media (max-width: 911px) {
+        justify-content: center;
+    }
+    
     > * {
-        flex: 0 0 min(380px, 100vw)
+        flex: 0 0 min(360px, 100%)
     }
 }
 
