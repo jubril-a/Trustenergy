@@ -91,6 +91,7 @@
             width: 100%;
             display: grid;
             margin-block: 1rem 2rem;
+            overflow: scroll;
             
             .nav-item {
                 text-align: center;
