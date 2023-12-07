@@ -7,6 +7,14 @@
 body{
     font-family:'Poppins', sans-serif;
 }
+.top-content{
+    padding: 0;
+    margin-top: 5%;
+
+}
+.ourteam{
+    margin-bottom: 2%;
+}
 .header{
     background-image: url(/assets/images/ourteam-1.jpg);
     width: 100%;
@@ -41,12 +49,7 @@ h2{
     text-decoration: underline;
     padding-bottom: 30px;
 
-    @media (max-width:1431px){
-       padding-top: 70px;
-    }
-    @media (max-width:1128px){
-        padding-top: 150px;
-    }
+
 }
 .text1{
     text-align: center;
@@ -67,15 +70,25 @@ h2{
     padding-top: 60px;
     align-items: center;
 }
+.ourteam-information{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2%;
+}
 .text4{
     font-weight: 400;
     line-height: 25px;
-    width: 95%;
-    @media (max-width:1128px){
-        align-items: center;
-    }
+    width: 100%;
+    text-align: justify;
+    margin-top: 2%;
 }
-@media (max-width:973px){
+.founders-text1{
+    width: 100%;
+}
+.text-founder{
+    font-size: 2rem;
+}
+@media (max-width:936px){
     .header{
         background-image: url(/assets/images/ourteam-1.jpg);
         width: 100%;
@@ -86,8 +99,13 @@ h2{
         justify-content: center;
         align-items: center;
     }
+    .top-content{
+        padding: 0;
+        margin-top: 20%;
+    
+    }
     h1{
-        font-size: 4rem;
+        font-size: 2rem;
         color: white;
         background-color: rgba(0, 0, 0, 0.288);
         text-align: center;
@@ -116,112 +134,38 @@ h2{
     }
     .founders{
         background-color: rgb(240, 240, 240);
+        display: flex;
+        flex-direction: column;
     }
-    @media(max-width:996px){
-         .img1{
-        width: 350px;
-        border-radius: 30px 0px 30px 0px;
-        box-shadow: 0 4px 8px 0 rgba(0.1, 0.1, 0.1, 0.1), 0 6px 20px 0 rgba(0.1, 0.1, 0.1, 0.1);
+    .chairman{
+        width: 100%;
     }
     .founders-1{
-        display: grid;
-        align-items: center;
-        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 5%;
     }
-    .text-founders{
-        display: grid;
-        justify-content: center;
+    .img1{
+        width: 80vw;
+    }
+    .founders-text1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
     .text4{
-        font-weight: 400;
-        line-height: 25px;
-        width: 95%;
+        text-align: justify;
     }
-    .text1{
-        font-size: 17px;
-        text-align: center;
-        width: 570px;
+    .ourteam-information{
+        display: grid;
+        grid-template-columns: auto;
     }
-    .team-info{
-        background-color: green;
-        width: 285px;
-        height: 33vh;
-        border-radius: 30px 0px 30px 0px;
-        box-shadow: rgba(238, 238, 238, 0.747);
+    .ourteam{
+        margin-bottom: 35%;
     }
-    .img2{
-        width: 100%;
-        border-radius: 20px 0px 0px 0px;
-    }
-    .team-name{
-        color: white;
-        text-align: center;
-    }
-    .text3{
-        color: white;
-        text-align: center;
-    }
-    .team-information{
-        row-gap: 80px;
-        width: 96px;
-        margin: auto;
-        column-gap: 80px;
-        padding-top: 30px;
-        padding-bottom: 80px;
-    }
-    h2{
-        font-size: 60px;
-    }
-    .founders-text2{
+    .ourteam >h2{
+        font-size: 2rem;
     }
 }
-}  
-.text2{
-    font-weight: 500;
-    font-size: 20px;
-}
-.span-1{
-    color: red;
-}
-.text-founder{
-    color: rgb(0, 0, 0);
-    font-size: 35px;
-}
-.team{
-    background-color: rgb(240, 240, 240);
-}
-.team-info{
-    background-color: green;
-    width: 285px;
-    height: 33vh;
-    border-radius: 30px 0px 30px 0px;
-    box-shadow: rgba(238, 238, 238, 0.747);
-    
-    @media (max-width:1431px){
-        width: 255px;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-.img2{
-    width: 100%;
-    border-radius: 20px 0px 0px 0px;
-}
-.team-name{
-    color: white;
-    text-align: center;
-}
-.text3{
-    color: white;
-    text-align: center;
-}
-.team-information{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 80px;
-    width: 896px;
-    margin: auto;
-    column-gap: 80px;
-    padding-top: 30px;
-    padding-bottom: 80px;
-}
-

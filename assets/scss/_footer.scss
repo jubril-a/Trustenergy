@@ -1,0 +1,53 @@
+footer {
+    background-color: $accent-color-dark;
+    color: #FFF;
+    padding: 5rem 2rem .5rem;
+
+    a {
+        color: #FFF;
+    }
+
+    nav {
+        display: grid;
+    }
+
+    .top-foot {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 3rem;
+        margin-bottom: 4rem;
+        flex-wrap: wrap;
+    }
+
+    .main-info {
+        display: grid;
+        gap: 1rem;
+    }
+
+    .h3 {
+        display: block;
+        font-weight: 600;
+        color: $primary-color-1;
+    }
+
+    .h3-l {
+        font-weight: 600;
+        margin-bottom: .5rem;
+        color: $primary-color-1;
+    }
+
+    .button {
+        background-color: $secondary-color;
+        color: #000;
+        border: 1px solid transparent;
+        margin-top: 1rem;
+        
+
+        &:hover {
+            background-color: transparent;
+            border: 1px solid $secondary-color;
+            color: #FFF;
+        }
+    }
+}

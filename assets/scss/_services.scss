@@ -1,0 +1,52 @@
+.services {
+    display: grid;
+    justify-items: center;
+    gap: 3rem;
+    grid-auto-columns: fit-content;
+
+    .body-text {
+        max-width: 40rem;
+    }
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 1.5rem;
+
+    @media (max-width: 911px) {
+        justify-content: center;
+    }
+    
+    > * {
+        flex: 0 0 min(360px, 100%)
+    }
+}
+
+.service {
+    background-color: $accent-color-light;
+    border-radius: 1rem;
+
+    .service__content {
+        padding: 1rem 1.5rem;
+    }
+
+    .service__text {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .service__description {
+        margin-block: .5rem;
+    }
+
+    img {
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    a {
+        color: $primary-color-1;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+}
