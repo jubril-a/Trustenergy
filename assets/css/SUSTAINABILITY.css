@@ -135,6 +135,11 @@ b{
     object-fit: fill;
     background-size: cover;
 }
+.SUSTAINABILITY{
+    padding: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 @media (max-width:1491px){
     .img1{
         width: 30%;

@@ -14,7 +14,7 @@ const navigation =()=>{
         <a href="#" class="nav-item">Our Services</a>
         <a href="/OurTeam.html" class="nav-item">Our Team</a>
         <a href="#" class="nav-item">Career</a>
-        <a href="#" class="nav-item">Sustainability</a>
+        <a href="/sustainability.html" class="nav-item">Sustainability</a>
         <a href="contact.html" class="nav-item mobile-contact">Contact Us</a>
     </div>
     <a href="contact.html" class="nav-item button">Contact Us</a>
