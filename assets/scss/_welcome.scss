@@ -1,0 +1,26 @@
+.welcome-wrapper {
+    background-color: #fff;
+}
+
+.welcome-section {
+    display: grid;
+    gap: 2rem;
+
+    div:last-child div:first-child {
+        margin-bottom: 2rem;
+    }
+
+    .button {
+        margin-block: 1rem;
+    }
+
+    .intro {
+        font-size: 18px;
+    }
+
+    @media (min-width: 960px) {
+        grid-template-columns: 1.5fr 1fr;
+        gap: 5rem;
+    }
+
+}

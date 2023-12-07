@@ -1,0 +1,113 @@
+.top-bar {
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 3px solid $primary-color-1;
+}
+
+#logo {
+    width: 150px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: .5rem 2rem;
+
+    @media (max-width: 940px) {
+        justify-content: space-between;
+    }
+
+
+    @media (max-width: 1024px) {
+        justify-content: end;
+
+        .logo {
+            margin-right: auto;
+        }
+
+        .button {
+            margin-left: 2rem;
+        }
+    }
+
+    .mobile-nav {
+        display: none;
+
+        @media (max-width: 940px) {
+            display: block;
+
+            i {
+                font-size: 1.8rem;
+            }
+        }    
+    }
+
+    .nav-item {
+        color: black;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .button {
+        color: white;
+
+        @media (max-width: 940px) {
+            display: none;
+        }
+    }
+}
+
+.primary-navigation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .mobile-contact {
+        display: none;
+    }
+
+    .nav-item {
+        padding-block: .3rem;
+        border: 2px solid transparent;
+
+        &.active {
+            border-bottom: 2px solid red;
+        }
+
+        &:hover:not(.active) {
+            border-bottom: 2px solid $primary-color-2;
+        }
+    } 
+
+    @media (max-width: 940px) {
+        display: none;
+
+        &.visible {
+            width: 100%;
+            display: grid;
+            margin-block: 1rem 2rem;
+            overflow: scroll;
+            
+            .nav-item {
+                text-align: center;
+                padding-block: 1rem;
+                font-size: 1rem;
+                border-radius: 1rem;
+
+                &:not(.active):not(&:last-child) {
+                    border-bottom: 1px solid rgba(0, 0, 0, .1);
+                }
+            }
+
+        }
+
+        .mobile-contact {
+            display: block;
+        }
+    }
+}
