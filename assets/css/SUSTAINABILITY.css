@@ -27,9 +27,601 @@ h1{
     
 }
 h3{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: 800;
     color: red;
     text-align: center;
     padding-top: 30px;
+}
+.text1{
+    text-align: center;
+    font-size: 16px;
+    padding-inline: 180px ;
+    padding-top: 20px;
+    font-weight: 300;
+}
+.text2{
+    text-align: center;
+    font-size: 16px;
+    padding-inline: 180px ;
+    padding-top: 10px;
+    font-weight: 300;
+}
+b{
+    font-weight: 600;
+}
+.policy-info{
+    background-color: green;
+    color: white;
+    width: 30%;
+    height: 35vh;
+}
+.policyinfo-1{
+    background-color: red;
+    color: white;
+    width: 30%;
+    height: 35vh;
+}
+.text3{
+    font-size: 35px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.text4{
+    font-family: 300;
+    padding-left: 40px;
+    width: 90%;
+    font-size: 18px;
+    align-items: center;
+}
+.img1{
+    width: 30%;
+    height: 35vh;
+    background-color: aqua;
+    background-image: url(/assets/images/pol-9.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    background-size: cover;
+}
+.policy-1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.img2{
+    width: 30%;
+    height: 35vh;
+    background-color: aqua;
+    background-image: url(/assets/images/pol-2.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    background-size: cover;
+}
+.img3{
+    width: 30%;
+    height: 35vh;
+    background-color: aqua;
+    background-image: url(/assets/images/pol-3.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    background-size: cover;
+}
+.img4{
+    width: 30%;
+    height: 35vh;
+    background-color: aqua;
+    background-image: url(/assets/images/pol-4.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    background-size: cover;
+}
+.img5{
+    width: 30%;
+    height: 35vh;
+    background-color: aqua;
+    background-image: url(/assets/images/pol-5.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    background-size: cover;
+}
+@media (max-width:1491px){
+    .img1{
+        width: 30%;
+        height: 50vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-8.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: contain;
+        background-position: center;
+    }
+    .policy-info{
+        background-color: green;
+        color: white;
+        width: 30%;
+        height: 50vh;
+    }
+    .text1{
+        text-align: center;
+        font-size: 16px;
+        padding-inline: 180px ;
+        padding-top: 20px;
+        font-weight: 300;
+    }
+    .text2{
+        text-align: center;
+        font-size: 16px;
+        padding-inline: 180px ;
+        padding-top: 10px;
+        font-weight: 300;
+    }
+    b{
+        font-weight: 600;
+    }
+    .policyinfo-1{
+        background-color: red;
+        color: white;
+        width: 30%;
+        height: 50vh;
+    }
+    .text3{
+        font-size: 35px;
+        font-weight: 500;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+    .text4{
+        font-family: 300;
+        padding-left: 40px;
+        width: 90%;
+        font-size: 18px;
+        align-items: center;
+    }
+    .img2{
+        width: 30%;
+        height: 50vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-2.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .img3{
+        width: 30%;
+        height: 50vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-3.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .img4{
+        width: 30%;
+        height: 50vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-4.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .img5{
+        width: 30%;
+        height: 50vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-6.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+
+}
+@media (max-width:1391px){
+    .img1{
+        width: 39%;
+        height: 43vh;
+        background-color: rgb(0, 255, 255);
+        background-image: url(/assets/images/pol-8.png);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+        background-position: center;
+    }
+    .policy-info{
+        background-color: green;
+        color: white;
+        width: 39%;
+        height: 43vh;
+    }
+    .text1{
+        text-align: center;
+        font-size: 16px;
+        padding-inline: 180px ;
+        padding-top: 20px;
+        font-weight: 300;
+    }
+    .text2{
+        text-align: center;
+        font-size: 16px;
+        padding-inline: 180px ;
+        padding-top: 10px;
+        font-weight: 300;
+    }
+    b{
+        font-weight: 600;
+    }
+    .policyinfo-1{
+        background-color: red;
+        color: white;
+        width: 39%;
+        height: 43vh;
+    }
+    .text3{
+        font-size: 35px;
+        font-weight: 500;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+    .text4{
+        font-family: 300;
+        padding-left: 40px;
+        width: 90%;
+        font-size: 18px;
+        align-items: center;
+    }
+    .img2{
+        width: 39%;
+        height: 43vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-2.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .img3{
+        width: 39%;
+        height: 43vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-3.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .img4{
+        width: 39%;
+        height: 43vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-4.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .img5{
+        width: 39%;
+        height: 43vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-6.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+
+}
+@media (max-width:860px){
+    .img1{
+        width: 55%;
+        height: 27vh;
+        background-color: rgb(0, 255, 255);
+        background-image: url(/assets/images/pol-8.png);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+        background-position: center;
+    }
+    .policy-info{
+        background-color: green;
+        color: white;
+        width: 55%;
+        height: 29vh;
+        align-content: center;
+    }
+    .text1{
+        text-align: center;
+        font-size: 16px;
+        padding-inline: 180px ;
+        padding-top: 20px;
+        font-weight: 300;
+    }
+    .text2{
+        text-align: center;
+        font-size: 16px;
+        padding-inline: 180px ;
+        padding-top: 10px;
+        font-weight: 300;
+    }
+    b{
+        font-weight: 600;
+    }
+    .policyinfo-1{
+        background-color: red;
+        color: white;
+        width: 55%;
+        height: 27vh;
+    }
+    .text3{
+        font-size: 35px;
+        font-weight: 500;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+    .text4{
+        font-family: 300;
+        padding-left: 40px;
+        width: 90%;
+        font-size: 18px;
+        align-items: center;
+    }
+    .img2{
+        width: 55%;
+        height: 27vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-2.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .img3{
+        width: 55%;
+        height: 27vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-3.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .img4{
+        width: 55%;
+        height: 27vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-4.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .img5{
+        width: 55%;
+        height: 27vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-6.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .header{
+        background-image: url(/assets/images/sus-3.jpg);
+        width: 100%;
+        height: 35vh;
+        background-repeat: no-repeat;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+        
+    }
+    h1{
+        font-size: 5rem;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.288);
+        text-align: center;
+        padding: 30px 110px;
+        
+    }
+    h3{
+        font-size: 2.6rem;
+        font-family: 800;
+        color: red;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .text1{
+        text-align: center;
+        font-size: 16px;
+        padding-inline: 70px ;
+        padding-top: 20px;
+        font-weight: 300;
+    }
+    .text2{
+        text-align: center;
+        font-size: 16px;
+        padding-inline: 70px ;
+        padding-top: 10px;
+        font-weight: 300;
+    }
+    b{
+        font-weight: 600;
+    }
+    .policy-1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .policies{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:400px){
+    .header{
+        background-image: url(/assets/images/sus-3.jpg);
+        width: 100%;
+        height: 40vh;
+        background-repeat: no-repeat;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+        
+    }
+    h1{
+        font-size: 2.5rem;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.288);
+        text-align: center;
+        padding: 3px 10px;
+        
+    }
+    h3{
+        font-size: 2.5rem;
+        font-family: 800;
+        color: red;
+        text-align: center;
+        padding-top: 30px;
+        line-height: 50px;
+    }
+    .text1{
+        text-align: left;
+        font-size: 16px;
+        padding-top: 10px;
+        font-weight: 300;
+    }
+    .text2{
+        text-align: left;
+        font-size: 16px;
+        padding-top: 10px;
+        font-weight: 300;
+    }
+    b{
+        font-weight: 600;
+    }
+    .policy-info{
+        background-color: green;
+        color: white;
+        width: 80%;
+        height: 50vh;
+    }
+    .policyinfo-1{
+        background-color: red;
+        color: white;
+        width: 80%;
+        height: 59vh;
+    }
+    .text3{
+        font-size: 35px;
+        font-weight: 500;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .text4{
+        font-family: 300;
+        padding-left: 20px;
+        width: 90%;
+        font-size: 18px;
+        align-items: center;
+    }
+    .img1{
+        width: 80%;
+        height: 35vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-9.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .policy-1{
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .img2{
+        width: 80%;
+        height: 35vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-2.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .img3{
+        width: 80%;
+        height: 35vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-3.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .img4{
+        width: 80%;
+        height: 35vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-4.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
+    .img5{
+        width: 80%;
+        height: 35vh;
+        background-color: aqua;
+        background-image: url(/assets/images/pol-5.jpg);
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
+        background-size: cover;
+    }
 }
