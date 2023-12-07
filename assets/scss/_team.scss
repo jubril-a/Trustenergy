@@ -1,0 +1,44 @@
+.team-wrapper {
+    background-color: $accent-color-light;
+}
+
+.team {
+    display: grid;
+    gap: 2rem;
+
+    .h2 {
+        margin-bottom: 0;
+        line-height: 1;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .position {
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .members {
+        display: grid;
+        gap: 2rem;
+
+        h3 {
+            line-height: 1.2;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        grid-template-columns: 1fr 1.5fr;
+        align-items: center;
+
+        .h2 {
+            margin-bottom: 1rem;
+        }
+
+        .members {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}

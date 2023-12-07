@@ -1,0 +1,150 @@
+@import 'resets';
+@import 'variables';
+@import 'utils';
+@import 'navigation';
+@import 'footer';
+
+section {
+    padding: 3rem .5rem;
+
+    @media (min-width: 600px) {
+        padding: 4rem;
+    }
+
+    @media (min-width: 960px) {
+        padding-block: 6rem;
+    }
+}
+
+.hero-wrapper {
+    background-color: $secondary-color;
+}
+
+.hero {
+    display: grid;
+    justify-content: center;
+    padding-block: 10rem;
+}
+
+.h2 {
+    padding-block: 1rem;
+
+    &::after {
+        background-color: #000;
+    }
+}
+
+.contact-form {
+    display: grid;
+    gap: 2rem;
+}
+
+.contact-medium {
+    display: grid;
+    gap: 3rem;
+    justify-items: center;
+}
+
+form {
+    display: grid;
+    gap: 1.5rem;
+
+    input:not(.submit-button) {
+        width: min(360px, 100%);
+        height: 3rem;
+        display: block;
+        font-size: 1.2rem;
+    }
+
+    textarea {
+        width: min(360px, 100%);
+        font-size: 1.2rem;
+        height: 10rem;
+    }
+
+    @media (min-width: 1024px) {
+        grid-template-columns: 1fr 1fr;
+
+        .span-2 {
+            grid-column: span 2;
+        }
+
+        textarea {
+            width: 100%;
+        }
+    }
+}
+
+.submit {
+    display: grid;
+    width: fit-content;
+    justify-items: center;
+    align-items: center;
+    background-color: $secondary-color;
+    border-radius: 10rem;
+    justify-self: end;
+
+    &:hover {
+        background-color: $primary-color-1;
+    }
+
+    .submit-button {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 10rem;
+        grid-area: 1 / 1;
+        background-color: transparent;
+    }
+
+    i {
+        grid-area: 1 / 1;
+        font-size: 2rem;
+    }
+}
+
+.contacts {
+    display: grid;
+    gap: 2rem;
+    background-color: $primary-color-1;
+    padding: 3rem 1rem;
+    //color: #fff;
+    max-width: min(320px, 100%);
+
+    i {
+        font-size: 1.5rem;
+    }
+
+    .info {
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+.main-info {
+    display: grid;
+    gap: 1rem;
+}
+
+.socials {
+    padding-top: 2rem;
+    display: flex;
+    gap: 1rem;
+
+    a {
+        background-color: #fff;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 4rem;
+
+        &:hover {
+            background-color: $secondary-color;
+        }
+    }
+
+    i {
+        color: #000;
+        font-size: 2rem;
+    }
+}

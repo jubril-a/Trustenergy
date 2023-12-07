@@ -1,0 +1,85 @@
+.constraint {
+    @media (min-width: 1260px) {
+        max-width: 1240px;
+        margin-inline: auto;
+        padding-inline: 0;
+    }
+}
+
+.constraint-40 {
+    max-width: 40rem;
+}
+
+.constraint-30 {
+    max-width: 30rem;
+}
+    
+
+.button {
+    padding: .6rem .9rem;
+    border-radius: 5px;
+    background-color: $primary-color-1;
+    display: block;
+    width: fit-content;
+    color: #fff;
+
+    &:hover {
+        background-color: $primary-color-2;
+    }
+}
+
+.underline {
+    position: relative;
+    width: fit-content;
+    margin-bottom: 1rem;
+    padding-bottom: .2rem;
+
+    &::after {
+        content: "";
+        width: 70%;
+        height: 5px;
+        background-color: $primary-color-1;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.h1 {
+    font-size: clamp(2rem, 1.2rem + 3.5vw, 4rem);
+    line-height: 1.2;
+}
+
+.h2 {
+    font-size: clamp(1rem, 1rem + 3vw, 2.5rem);
+    margin-bottom: 1rem;
+    line-height: 1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary-1 {
+    color: $primary-color-1;
+}
+
+.text-primary-2 {
+    color: $primary-color-2;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.mb-100 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-200 {
+    margin-bottom: 1rem;
+}
+
+.mbk-100 {
+    margin-block: 1rem;
+}
