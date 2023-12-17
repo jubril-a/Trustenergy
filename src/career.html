@@ -24,7 +24,7 @@
     <div>
     <div class="top-bar"></div>
     <section class="career-form">
-        <form action="https://trustenergy.onrender.com/api/upload" method="post" enctype="multipart/form-data" >
+        <form id="careerForm" >
             <label for="roles">Select a Job Role</label>
 
             <select name="role" id="jobrole">
@@ -50,7 +50,7 @@
             </select>
             <label for="upload">upload</label>
             <input type="file" id="cv" name="cv" accept=".pdf" required/>
-            <button type="submit" >Submit</button>
+            <button type="submit"  >Submit</button>
         </form>
         <button id="sendEmail">Send Email</button>
     
