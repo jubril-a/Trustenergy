@@ -7,7 +7,7 @@
     "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
     "start:server": "node src/server.js",
     "start:client": "webpack serve --config webpack.config.js --port 3000",
-    "build": "webpack --config webpack.config.js --mode=production"
+    "build": "webpack --mode=production"
   },
   "keywords": [],
   "author": "",
