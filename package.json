@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:server": "node src/server.js",
+    "start:server": "node server/server.js",
     "start:client": "webpack serve --config webpack.config.js --port 3000",
     "start": "npm-run-all --parallel start:server start:client",
-    "build": "webpack --config webpack.config.js --mode=production"
+    "build": "webpack --config webpack.config.js "
   },
   "keywords": [],
   "author": "",
