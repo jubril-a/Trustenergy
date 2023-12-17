@@ -28,7 +28,7 @@ module.exports = {
     compress: true,
     historyApiFallback: true,
     proxy: {
-        '/api': 'http://localhost:3003/', // Proxy API requests to your Express server
+        '/api': 'https://trustenergy.onrender.com/', // Proxy API requests to your Express server
       },
   },
   resolve: {
