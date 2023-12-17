@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prebuild": "npm install -D webpack-cli",
-    "start": "concurrently \"npm run start:server\" \"npm run start:client\"",
-    "start:server": "node src/server.js",
-    "start:client": "webpack serve --config webpack.config.js --port 3000",
-    "build": "webpack --config webpack.config.js --mode=production"
+  "start:server": "node src/server.js",
+  "start:client": "webpack serve --config webpack.config.js --port 3000",
+  "start": "npm run start:server & npm run start:client",
+  "build": "webpack --config webpack.config.js --mode=production"
   },
   "keywords": [],
   "author": "",
