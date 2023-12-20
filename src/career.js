@@ -14,29 +14,29 @@ document.addEventListener('DOMContentLoaded', function(){
     footer()
 })
 
-document.getElementById('careerForm').addEventListener('submit', async function submitForm(event) {
-    event.preventDefault();
-     // Prevent the default form submission
-    console.log("click")
-    const form = document.getElementById('careerForm');
-    const formData = new FormData(form);
+// document.getElementById('careerForm').addEventListener('submit', async function submitForm(event) {
+//     event.preventDefault();
+//      // Prevent the default form submission
+//     console.log("click")
+//     const form = document.getElementById('careerForm');
+//     const formData = new FormData(form);
 
-    try {
-        const response = await fetch('https://trustenergy.onrender.com/api/upload', {
-            method: 'POST',
-            body: formData,
-        });
+//     try {
+//         const response = await fetch('https://trustenergy.onrender.com/api/upload', {
+//             method: 'POST',
+//             body: formData,
+//         });
 
-        if (response.ok) {
-            console.log('File uploaded successfully');
-            // Optionally, perform additional actions on success
-        } else {
-            console.error('File upload failed');
-        }
-    } catch (error) {
-        console.error('An error occurred:', error);
-    }
-})
+//         if (response.ok) {
+//             console.log('File uploaded successfully');
+//             // Optionally, perform additional actions on success
+//         } else {
+//             console.error('File upload failed');
+//         }
+//     } catch (error) {
+//         console.error('An error occurred:', error);
+//     }
+// })
 
 // document.getElementById('sendEmail').addEventListener('click', async () => {
 //     console.log("click")

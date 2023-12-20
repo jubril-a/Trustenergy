@@ -20,6 +20,7 @@ app.post('/api/upload', upload.single('cv'), (req, res) => {
   try {
     const { role } = req.body;
     const attachment = req.file.buffer;
+    console.log("click")
 
     if (!role || !attachment) {
       return res.status(400).send('Bad Request: Role and CV are required.');
