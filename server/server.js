@@ -10,7 +10,11 @@ const port = process.env.PORT || 3003;
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
-app.use(express.static(path.join(__dirname, 'dist')));
+// const staticPath = path.join(__dirname, '../dist');
+
+app.use(express.static('./dist'));
+
+
 
 app.post('/api/upload', upload.single('cv'), (req, res) => {
   try {
